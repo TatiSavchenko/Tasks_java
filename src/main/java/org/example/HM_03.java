@@ -54,7 +54,7 @@ public class HM_03 {
         // 5. Создать ArrayList<Integer> и добавить нулевым элементам ноль 10000 раз.
         ArrayList<Integer> list6 = new ArrayList<>();
         long t50 = System.nanoTime();
-        for (int i = 0; i<10000; i++) list6.add(list6.size()/2, 0);  // если сделать 10000, отношение затраченного времени примерно равно 4
+        for (int i = 0; i<10000; i++) list6.add(list6.size()/2, 0);
         long t51 = System.nanoTime();
         System.out.print("Время выполнения  с ArrayList<Integer> в нс: ");
         System.out.println(t51-t50);
